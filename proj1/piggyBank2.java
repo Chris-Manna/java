@@ -15,22 +15,19 @@ public class piggyBank2 //establishing the class of our program
 	pennies = inputPennies.nextInt();
 	
 	Scanner inputNickels = new Scanner(System.in);
-	System.out.print("Please enter the number of nickels you");
-	System.out.println(" would like to deposit: ");
+	System.out.print("Please enter the number of nickels you would like to deposit: ");
 	int nickels;
 	nickels = inputNickels.nextInt();
 	nickels = 5*nickels;
 
 	Scanner inputDimes = new Scanner (System.in);
-	System.out.print("Please enter the number of dimes you");
-	System.out.println(" would like to deposit: ");
+	System.out.print("Please enter the number of dimes you would like to deposit: ");
 	int dimes;
 	dimes = inputDimes.nextInt();
 	dimes = 10*dimes;
 	
 	Scanner inputQuarters = new Scanner(System.in);
-	System.out.print("Please enter the number of quarters you");
-	System.out.println(" would like to deposit: ");
+	System.out.print("Please enter the number of quarters you would like to deposit: ");
 	int quarters;
 	quarters = inputQuarters.nextInt();
 	quarters = 25*quarters;
