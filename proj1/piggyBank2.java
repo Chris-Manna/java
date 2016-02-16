@@ -6,12 +6,11 @@ public class piggyBank2 //establishing the class of our program
   public static void main(String args [])
   {
 	//introduce user to awesomeness of program piggyBank
-	System.out.println("Welcome to piggyBank, SON!");
+	System.out.println("Welcome to piggyBank!");
 	
 	//prompt user for variable values
 	Scanner inputPennies = new Scanner(System.in);
-	System.out.print("Please enter the number of pennies you would");
-	System.out.println(" like to deposit: ");
+	System.out.print("Please enter the number of pennies you would like to deposit: ");
 	int pennies;
 	pennies = inputPennies.nextInt();
 	
